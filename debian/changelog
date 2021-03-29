@@ -1,3 +1,13 @@
+lxml (4.5.0-1ubuntu0.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: incorrect formaction attribute input sanitization
+    - debian/patches/CVE-2021-28957.patch: add HTML-5 formaction attribute
+      to defs.link_attrs in src/lxml/html/defs.py,
+      src/lxml/html/tests/test_clean.py.
+    - CVE-2021-28957
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 29 Mar 2021 12:04:02 -0400
+
 lxml (4.5.0-1ubuntu0.2) focal-security; urgency=medium
 
   * SECURITY UPDATE: XSS vulnerability
