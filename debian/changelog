@@ -1,3 +1,14 @@
+lxml (4.5.0-1ubuntu0.5) focal-security; urgency=medium
+
+  * SECURITY UPDATE: XSS vulnerability
+    - debian/patches/CVE-2021-43818-*.patch: prevent "@import"
+      from re-occurring in the CSS after replacements and remove
+      SVG image data URLs since they can embed script content in
+      src/lxml/html/clean.py, src/html/tests/test_clean.py.
+    - CVE-2021-43818
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Tue, 04 Jan 2022 09:33:10 -0300
+
 lxml (4.5.0-1ubuntu0.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: incorrect formaction attribute input sanitization

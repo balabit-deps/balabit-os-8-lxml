@@ -2,3 +2,5 @@ CVE-2020-27783.patch
 CVE-2020-27783-part2.patch
 CVE-2020-27783_part2_handling_python2.patch
 CVE-2021-28957.patch
+CVE-2021-43818-1.patch
+CVE-2021-43818-2.patch
